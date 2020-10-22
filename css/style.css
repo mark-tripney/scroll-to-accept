@@ -1,0 +1,36 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-family: sans-serif;
+  line-height: 2;
+  background: #11001c;
+}
+
+.wrapper {
+  width: 400px;
+  height: 80vh;
+  padding: 20px;
+  margin: 0 5%;
+  border: 1px solid black;
+  background: white;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+button {
+  background: #3a015c;
+  color: white;
+  font-size: 1rem;
+  padding: 20px;
+  transition: all 0.2s;
+}
+
+button[disabled] {
+  opacity: 0.1;
+}
+
+.terms-and-conditions {
+  overflow: scroll;
+}
